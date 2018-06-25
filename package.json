@@ -1,0 +1,30 @@
+{
+  "name": "chihayabot",
+  "version": "1.0.0",
+  "description": "membuat chatbot",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liezlupe/ChihayaBot.git"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "Ike Listiani",
+  "license": "ISC",
+  "bugs":{
+    "url": "https://github.com/liezlupe/ChihayaBot/issues"
+  },
+  "dependencies": {
+    "dbot-js": "^1.0.2",
+    "node-emoji": "^1.8.1",
+    "node-telegram-bot-api": "^0.30.0",
+    "request": "^2.87.0",
+    "telegram": "^0.2.0"
+  },
+  "devDependencies": {}
+}
